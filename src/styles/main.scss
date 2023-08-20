@@ -1,4 +1,7 @@
 @import 'reset';
+/*---------------------------------
+# Header
+------------------------------------*/
 header#header {
 	position: absolute;
 	width: 100%;
@@ -163,6 +166,10 @@ ul {
 			height: 100%;
 		}
 	}
+
+/*---------------------------------
+# Media query
+------------------------------------*/
 	@media {
 		all {
 			and {
@@ -195,12 +202,21 @@ ul {
 			}
 		}
 	}
+
+
+/*---------------------------------
+# Banner
+------------------------------------*/
 	.banner-area {
 		background: url(/src/images/banner.png) no-repeat scroll 0 0 / 100% 100%;
 		padding: 250px 0px;
 		position: relative;
 		z-index: 2;
 	}
+
+/*---------------------------------
+# Tranding
+------------------------------------*/
 	.tranding-area {
 		overflow: hidden;
 		padding: 50px 0px;
@@ -495,6 +511,9 @@ to {
 .search-for-mobile {
 	display: none;
 }
+/*---------------------------------
+# Media query
+------------------------------------*/
 @media {
 	all {
 		and {
